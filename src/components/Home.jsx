@@ -1,6 +1,7 @@
 import {useContext} from 'react'
 import { MyContext } from '../context/MyContext';
 // import { ThemeContext } from '../context/ThemeContext';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ Thia is the name of the admin {value.name} we fetched by using useContext       
             Explore Features
           </button>
           <button className="px-8 py-3 bg-white text-gray-700 border border-gray-200 font-bold rounded-2xl hover:bg-gray-50 transition-all active:scale-95">
-            View Github
+           <Link to="https://github.com/MIbrahim0121" className="text-gray-700 hover:text-blue-600 transition">View Github</Link>
           </button>
         </div>
       </div>
