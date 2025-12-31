@@ -26,9 +26,7 @@ const Footer = () => {
             <li>
               <Link to="/contact" className="hover:text-blue-600 transition">Contact</Link>
             </li>
-            <li>
-              <Link to="/privacy" className="hover:text-blue-600 transition">Privacy Policy</Link>
-            </li>
+            
           </ul>
 
           {/* Social Icons (Placeholders) */}
