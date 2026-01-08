@@ -9,7 +9,7 @@ const Footer = () => {
           
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
-            <h2 className="text-xl font-bold text-blue-500">MYAPP</h2>
+            <h2 className="text-xl font-bold text-blue-500">MyApp</h2>
             <p className="dark:text-gray-400 text-gray-500 text-sm mt-1">
               © 2025 All rights reserved.
             </p>

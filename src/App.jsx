@@ -9,7 +9,7 @@ import { MyContext } from './context/MyContext';
 import { ThemeProvider } from './context/ThemeContext';
 
 const App = () => {
-    const [name] = useState("IBRAHIM");
+    const [name] = useState("MyApp");
   
   return (
     <ThemeProvider>
